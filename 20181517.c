@@ -5,10 +5,14 @@ long sfibo(int n);
 //1 1 2 3 5
 int main() {
     int n;
+    int r;
     for(n = 3; n <= 45; n++){
         if(n % 2 == 1){
+
             printf("rfibo(%d) = %ld\n", n, rfibo(n));
             printf("sfibo(%d) = %ld\n", n, sfibo(n));
+
+          
         }
     }
     return 0;
