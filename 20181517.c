@@ -8,9 +8,11 @@ int main() {
     int r;
     for(n = 3; n <= 45; n++){
         if(n % 2 == 1){
-            r = rfibo(n);
-            printf("rfibo(%d) = %ld\n", n, r);
-           // printf("sfibo(%d) = %ld\n", n, sfibo(n));
+
+            printf("rfibo(%d) = %ld\n", n, rfibo(n));
+            printf("sfibo(%d) = %ld\n", n, sfibo(n));
+
+          
         }
     }
     return 0;
