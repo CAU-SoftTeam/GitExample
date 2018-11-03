@@ -22,6 +22,6 @@ long rfibo(int n){
     if (n == 1) return 1;
     if (n == 2) return 1;
 
-    return rfibo(n-1) + rfibo(n-2);//hwbrz
+    return rfibo(n-1) + rfibo(n-2);//hwbrz12
 }
 
