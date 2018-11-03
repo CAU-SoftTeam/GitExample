@@ -8,6 +8,7 @@ int main() {
     int r;
     for(n = 3; n <= 45; n++){
         if(n % 2 == 1){
+            printf("testCJM");
 
             printf("rfibo(%d) = %ld\n", n, rfibo(n));
             printf("sfibo(%d) = %ld\n", n, sfibo(n));
